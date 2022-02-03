@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jenkins-with-docker-java-project:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jenkins-with-docker-java-project</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="jenkins-with-docker-java-project-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="jenkins-with-docker-java-project:war exploded" />
+    </root>
+  </artifact>
+</component>

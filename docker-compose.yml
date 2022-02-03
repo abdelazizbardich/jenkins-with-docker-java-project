@@ -1,0 +1,6 @@
+services:
+  project:
+    build: .
+    container_name: "project"
+    ports:
+      - 8080:8080
