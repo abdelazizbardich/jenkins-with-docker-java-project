@@ -4,4 +4,5 @@ WORKDIR /usr/local/tomcat
 
 COPY ./target/final.war ./webapps/root.war
 
+
 CMD ["catalina.sh","run"]
