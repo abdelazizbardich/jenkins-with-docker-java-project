@@ -2,6 +2,6 @@ public class test {
 
 
     public boolean istrue(){
-        return  false;
+        return  true;
     }
 }
