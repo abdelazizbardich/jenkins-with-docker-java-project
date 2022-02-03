@@ -3,4 +3,4 @@ services:
     build: .
     container_name: "my_jee_project"
     ports:
-      - 1337:8080
+      - "1337:8080"
