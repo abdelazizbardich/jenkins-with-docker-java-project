@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="jenkins-with-docker-java-project-1.0-SNAPSHOT.war">
+    <root id="archive" name="final.war">
       <element id="artifact" artifact-name="jenkins-with-docker-java-project:war exploded" />
     </root>
   </artifact>
