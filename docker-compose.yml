@@ -1,6 +1,6 @@
 services:
   project:
     build: .
-    container_name: "project"
+    container_name: "my_jee_project"
     ports:
       - 8080:8080
