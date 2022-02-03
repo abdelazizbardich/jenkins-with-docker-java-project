@@ -2,7 +2,7 @@ public class test {
 
 
     public boolean istrue(){
-        System.out.println("sqdqsfd");
+        System.out.println("sqdqsfdsdfsdf");
         return  true;
     }
 }
