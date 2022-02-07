@@ -3,12 +3,12 @@ pipeline{
     stages {
         stage("build") {
             steps{
-                mvn install   
+                sh mvn install   
             }
         }
         stage("deploy"){
             steps{
-                docker-compose up    
+                sh docker-compose up    
             }
         }
     }
