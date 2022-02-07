@@ -6,5 +6,10 @@ pipeline{
                 mvn install   
             }
         }
+        stage("deploy"){
+            steps{
+                docker-compose up    
+            }
+        }
     }
 }
